@@ -4,8 +4,13 @@
 // `headlines` and `body-1` levels.
 $custom-typography: mat-typography-config(
   $font-family: 'Inter, sans-serif',
-  $headline: mat-typography-level(32px, 48px, 700),
-  $body-1: mat-typography-level(1rem, 24px, 400)
+  $headline:      mat-typography-level(2rem, 3rem, 700),
+  $title:         mat-typography-level(1.9rem, 2rem, 500),
+  $subheading-2:  mat-typography-level(1.3rem, 2rem, 400),
+  $subheading-1:  mat-typography-level(1.25rem, 2rem, 400),
+  $body-2:        mat-typography-level(1.2rem, 1.95rem, 400),
+  $body-1:        mat-typography-level(1rem, 1.75rem, 400),
+  $caption:       mat-typography-level(12px, 20px, 300),
 );
 
 @include angular-material-typography($custom-typography);
